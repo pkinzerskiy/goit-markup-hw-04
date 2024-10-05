@@ -299,7 +299,6 @@ margin-bottom: 8px;
   padding-bottom: 120px;
 }
 
-
 .div-team-item .item-title {
   text-align: center;
   padding-bottom: 8px;
@@ -317,7 +316,7 @@ margin-bottom: 8px;
   width: calc((100% - 72px) / 4);
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background-color: #fff;
-  border-radius:  4px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-item-img {
@@ -341,20 +340,16 @@ margin-bottom: 8px;
   color: #434455;
   padding-bottom: 8px;
 }
-
-
-.item-block-social{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap:24px;
-}
-
 .list-team-social {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 24px; 
+}
+.item-block-social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .item-block-social .item-social {
@@ -390,7 +385,6 @@ margin-bottom: 8px;
 position: relative;
 overflow: hidden;
 }
-
 
 .portfolio-overlay {
   position: absolute;
