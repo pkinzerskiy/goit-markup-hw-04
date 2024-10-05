@@ -341,9 +341,9 @@ margin-bottom: 8px;
 .list-team-social {
   display: flex;
   justify-content: center;
-  `
   gap: 24px; 
 }
+
 .item-block-social{
   display: flex;
   justify-content: center;
