@@ -39,8 +39,8 @@ img {
   margin: 0 auto;   
 }
 .padding-section {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 /* class for all social network icon */
@@ -174,7 +174,6 @@ color: #434455;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 60px;
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -251,15 +250,21 @@ margin-bottom: 8px;
 }
 
 .benefits-item-title {
-  padding: 8px 0px; 
+  display: block;
+  margin-bottom: 8px; 
   text-transform: capitalize;
 }
 
+.benefits-item-text {
+  display: block;
+  margin-bottom: 8px;
+}
 /* ------------ /benefits section ------------*/
 /* ------------  section ------------*/
 .team-title,
 .portfolio-title {
-  padding-bottom: 72px;
+  display: block;
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -282,6 +287,7 @@ margin-bottom: 8px;
 }
 
 .portfolio-item-text {
+  display: block; 
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -292,15 +298,15 @@ margin-bottom: 8px;
 /* ------------ team section ------------*/
 .section-team {
   background: #f4f4fd;
-  width: 1440px;
-  margin: 60px auto;
+  /* width: 1440px; */
+  margin: 0px auto;
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
 .div-team-item .item-title {
   text-align: center;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .team-list,
@@ -336,7 +342,7 @@ margin-bottom: 8px;
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .list-team-social {
   display: flex;
@@ -362,13 +368,15 @@ margin-bottom: 8px;
   fill:#f4f4fd;
 }
 /* ------------/team section ------------*/
-.portfolio-list {
+
+.portfolio-list.portfolio-list {
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
 }
 
 .portfolio-item {
+  display: block;
   max-width: 360px;
   border-radius: 0px 0 4px 4px;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -423,8 +431,7 @@ overflow: hidden;
 /* ------------footer section ------------*/
 .footer-section {
   background-color: #2e2f42;
-  width: 1440px;
-  margin-top: 60px;
+  /* width: 1440px; */
   margin-right: auto;
   margin-left: auto;
   padding-top: 100px;
@@ -446,13 +453,13 @@ overflow: hidden;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  display: block;
   width: 264px;
-  margin-top: 16px;
+  /* margin-top: 16px; */
 }
 .footer-section .logo-part {
   text-transform: uppercase;
   color: #f4f4fd;
+  display: inline-block;
   margin-bottom: 16px;
 }
 
