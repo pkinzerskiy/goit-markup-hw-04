@@ -87,7 +87,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding-right: 76px;
+  margin-right: 76px;
 }
 .logo .logo-part {
   color: #2e2f42;
@@ -255,10 +255,6 @@ margin-bottom: 8px;
   text-transform: capitalize;
 }
 
-.benefits-item-text {
-  display: block;
-  margin-bottom: 8px;
-}
 /* ------------ /benefits section ------------*/
 /* ------------  section ------------*/
 .team-title,
@@ -456,11 +452,15 @@ overflow: hidden;
   width: 264px;
   /* margin-top: 16px; */
 }
+  .footer-column-left .logo {
+    margin-right: 0px;
+    margin-bottom: 16px;
+  }
+
 .footer-section .logo-part {
   text-transform: uppercase;
   color: #f4f4fd;
   display: inline-block;
-  margin-bottom: 16px;
 }
 
 .footer-column-right {
